@@ -10,53 +10,95 @@
 </head>
 
 <body>
-  <div class="hero">
-    <img class="hero__decor" src="./img/ZOOOVrStroke.png" alt="hero__decor">
-    <!-- <img class="hero__eclipse" src="./img/HeroEllipse.png" alt="hero__eclipse"> -->
-    <div class="header">
-      <img src="./img/main-logo.png" alt="ZOOOW">
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">BARF</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">Раціони</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">ZOOOV</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">О нас</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">Доставка</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">FAQ</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="" class="header__nav-link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="hero__wrap">
-      <div class="hero__box">
-        <h1 class="hero__title">
-          <p>Питание,</p> которое полюбит ваш хвостик
-        </h1>
-        <p class="hero__info">Натуральные рационы питания для собак по системе BARF</p>
-        <a href="#" class="btn hero__btn">Выбрать рацион</a>
+  <div class="wrapper">
+    <div class="hero">
+      <img class="hero__decor" src="./img/ZOOOVrStroke.png" alt="hero__decor">
+      <!-- <img class="hero__eclipse" src="./img/HeroEllipse.png" alt="hero__eclipse"> -->
+      <div class="container">
+        <header class="header">
+          <img src="./img/main-logo.png" alt="ZOOOW">
+          <nav class="header__nav">
+            <img src="./img/decor/modal__left.png" alt="" class="header__nav-left">
+            <img src="./img/decor/modal__right.png" alt="" class="header__nav-right">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">BARF</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">Раціони</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">ZOOOV</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">О нас</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">Доставка</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">FAQ</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__btn-menu">
+            <div class="header__btn-line"></div>
+            <div class="header__btn-line"></div>
+            <div class="header__btn-line"></div>
+          </div>
+        </header>
+        <div class="hero__wrap">
+          <div class="hero__box">
+            <h1 class="hero__title">
+              <p>Питание,</p> которое полюбит ваш хвостик
+            </h1>
+            <p class="hero__info">Натуральные рационы питания для собак по системе BARF</p>
+            <a href="#" class="btn hero__btn">Выбрать рацион</a>
+          </div>
+        </div>
       </div>
     </div>
 
+    <main>
+
+      <div class="about">
+        <div class="container">
+          <div class="about__wrap">
+            <div class="about__col">
+              <h2 class="title title-h2 about__title">Что такое BARF</h2>
+              <p class="about__info">BARF (Biologically Appropriate Raw Food) — система питания собак, основанная на
+                сырых
+                натуральных продуктах. Такой
+                рацион максимально приближен к естественному пищевому поведению хищников, а значит биологически
+                правилен.
+              </p>
+              <div class="about__label">После перехода на питание по системе BARF у собак:</div>
+              <ul class="about__list">
+                <li class="about__item">Нормализуется пищеварение</li>
+                <li class="about__item">Проходят аллергические реакции</li>
+                <li class="about__item">Прекращается образование зубного камня</li>
+                <li class="about__item">Появляется больше энергии</li>
+                <li class="about__item">Увеличивается продолжительность жизни</li>
+              </ul>
+            </div>
+            <div class="about__col">
+              <div class="about__img-wrap">
+                <img src="./img/about.jpg" alt="" class="about__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer"></footer>
+
   </div>
-
-  <main>
-
-
-  </main>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
